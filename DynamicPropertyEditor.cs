@@ -7,7 +7,7 @@
  [CustomEditor(typeof(MyScript))]
  public class DynamicPropertyEditor : Editor
  {
-   void OnInspectorGUI()
+   public override void OnInspectorGUI()
    {
      var myScript = target as MyScript;
  
